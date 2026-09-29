@@ -1,0 +1,4 @@
+# Exports directory
+#
+# Downloaded analysis results (CSV, JSON, Excel) are saved here.
+# This directory is excluded from version control.
