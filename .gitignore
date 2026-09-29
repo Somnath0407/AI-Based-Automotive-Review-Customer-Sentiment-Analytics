@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Streamlit
+.streamlit/
+
+# Downloads / partial downloads
+*.crdownload
+*.part
+*.tmp
+
+# Model artifacts (large files — add specific checkpoints to version control if needed)
+models/checkpoints/bert/best_model/
+models/checkpoints/bert/checkpoint-*/
+models/checkpoints/xlmr/best_model/
+models/checkpoints/xlmr/checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.zip
+*.tar.gz
+*.rar
+*.7z
+optimizer*.pt
+models*.zip
+
+# Exports
+exports/*
+!exports/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace cache (optional — these are large)
+# ~/.cache/huggingface/
