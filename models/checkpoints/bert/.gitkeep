@@ -1,0 +1,2 @@
+# Place your BERT fine-tuned checkpoint files here.
+# Expected: best_model/config.json, best_model/model.safetensors, etc.

@@ -1,0 +1,2 @@
+# Place your XLM-RoBERTa fine-tuned checkpoint files here.
+# Expected: best_model/config.json, best_model/model.safetensors, etc.
